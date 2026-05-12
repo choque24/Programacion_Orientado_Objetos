@@ -1,7 +1,15 @@
+# ==============================================================================
+# IDEs and Editors
+# ==============================================================================
+
 ### IntelliJ IDEA ###
+.idea/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+*.iws
+*.iml
+*.ipr
 
 ### Eclipse ###
 .apt_generated
@@ -24,6 +32,31 @@ bin/
 
 ### VS Code ###
 .vscode/
+*.code-workspace
+.history/
+
+# ==============================================================================
+# System Files
+# ==============================================================================
 
 ### Mac OS ###
-.DS_Store
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+### Windows ###
+Thumbs.db
+desktop.ini
+
+### Linux ###
+.fuse_hidden
+.directory
+.Trash-*
+
+# ==============================================================================
+# Build Tools & Dependencies (Ejemplo para Java/Maven/Gradle)
+# ==============================================================================
+# Si usas Maven o Gradle, es vital incluir estas carpetas:
+target/
+build/
+.gradle/
